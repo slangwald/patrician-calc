@@ -132,5 +132,4 @@ let GoodsConfig = goodsConfigPer1000.map(good => {
   }
 )
 
-
 export default GoodsConfig.sort(nameCompare)

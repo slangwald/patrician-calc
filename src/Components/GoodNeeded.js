@@ -61,10 +61,15 @@ class GoodNeeded extends Component {
       if (this.netRequiredGoods[good.name]) {
         requiredByBusinesses = this.netRequiredGoods[good.name]
       }
-      return <td key={this.props.town.name + '-' + good.name}>
-      <small>{neededGood} / {requiredByBusinesses}</small> <br />
-      <strong>{neededGood + requiredByBusinesses} </strong>
-      </td>
+      let isProducedHere = "black";
+      if (this.props.town.produces.includes(good.name)) {
+        isProducedHere = "grey"
+      }
+      return (
+        <td key={this.props.town.name + '-' + good.name}>
+          <span className={isProducedHere}>{neededGood + requiredByBusinesses}</span>
+        </td>
+      )
     })
     return (
       <tr>

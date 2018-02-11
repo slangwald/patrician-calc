@@ -2,15 +2,24 @@ import nameCompare from './functions'
 export default [
   {
     name: 'Luebeck',
-    rich_people: 513,
-    wealthy_people: 1064,
-    poor_people: 2159,
+    rich_people: 546,
+    wealthy_people: 1091,
+    poor_people: 2387,
+    produces: [
+      'bricks',
+      'fish',
+      'grain',
+      'hemp',
+      'iron goods',
+      'pitch',
+      'timber',
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
-      'brick works': 0,
+      'brick works': 4,
       'cattle farm': 0,
-      'fisher': 3,
+      'fisher': 4,
       'grain farm': 0,
       'hemp farm': 0,
       'hunter': 0,
@@ -31,6 +40,20 @@ export default [
     rich_people: 482,
     wealthy_people: 946,
     poor_people: 2688,
+    produces: [
+
+      'bricks',
+
+      'fish',
+
+      'pig iron',
+      'pitch',
+      'pottery',
+      'skins',
+      'timber',
+      'whale oil',
+
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
@@ -54,12 +77,20 @@ export default [
   },
   {
     name: 'Stettin',
-    rich_people: 418,
-    wealthy_people: 1114,
-    poor_people: 3244,
+    rich_people: 489,
+    wealthy_people: 1208,
+    poor_people: 3491,
+    produces: [
+      'beer',
+      'fish',
+      'grain',
+      'hemp',
+      'salt',
+      'timber',
+    ],
     businesses: {
       'apiary': 0,
-      'brewery': 11,
+      'brewery': 13,
       'brick works': 0,
       'cattle farm': 0,
       'fisher': 2,
@@ -83,6 +114,15 @@ export default [
     rich_people: 319,
     wealthy_people: 815,
     poor_people: 2239,
+    produces: [
+      'bricks',
+      'cloth',
+      'grain',
+      'hemp',
+      'honey',
+      'pottery',
+      'wool'
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
@@ -99,7 +139,7 @@ export default [
       'sawmill': 0,
       'sheep farm': 5,
       'vineyard': 0,
-      'weaving mill': 7,
+      'weaving mill': 8,
       'whaler': 0,
       'work shop': 0
     }
@@ -109,6 +149,16 @@ export default [
     rich_people: 406,
     wealthy_people: 823,
     poor_people: 2211,
+    produces: [
+      'bricks',
+      'grain',
+      'hemp',
+      'honey',
+      'leather',
+      'meat',
+      'pottery',
+      'salt',
+    ],
     businesses: {
       'apiary': 3,
       'brewery': 0,
@@ -120,7 +170,7 @@ export default [
       'hunter': 0,
       'iron smelter': 0,
       'pitch maker': 0,
-      'pottery': 2,
+      'pottery': 4,
       'salt works': 0,
       'sawmill': 0,
       'sheep farm': 0,
@@ -135,11 +185,20 @@ export default [
     rich_people: 377,
     wealthy_people: 884,
     poor_people: 2159,
+    produces: [
+      'bricks',
+      'fish',
+      'hemp',
+      'leather',
+      'meat',
+      'pig iron',
+      'whale oil',
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
       'brick works': 0,
-      'cattle farm': 4,
+      'cattle farm': 6,
       'fisher': 0,
       'grain farm': 0,
       'hemp farm': 0,
@@ -161,6 +220,15 @@ export default [
     rich_people: 384,
     wealthy_people: 696,
     poor_people: 2143,
+    produces: [
+      'beer',
+      'grain',
+      'hemp',
+      'leather',
+      'meat',
+      'pitch',
+      'wool'
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
@@ -187,6 +255,16 @@ export default [
     rich_people: 253,
     wealthy_people: 588,
     poor_people: 1139,
+    produces: [
+      'bricks',
+      'cloth',
+      'honey',
+      'leather',
+      'meat',
+      'pig iron',
+      'timber',
+      'wool'
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
@@ -213,6 +291,14 @@ export default [
     rich_people: 298,
     wealthy_people: 474,
     poor_people: 2316,
+    produces: [
+      'grain',
+      'iron goods',
+      'leather',
+      'meat',
+      'salt',
+      'skins',
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
@@ -239,6 +325,14 @@ export default [
     rich_people: 259,
     wealthy_people: 432,
     poor_people: 1473,
+    produces: [
+      'fish',
+      'honey',
+      'pitch',
+      'salt',
+      'skins',
+      'timber',
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
@@ -265,6 +359,17 @@ export default [
     rich_people: 336,
     wealthy_people: 614,
     poor_people: 1554,
+    produces: [
+      'honey',
+      'leather',
+      'meat',
+      'pottery',
+      'salt',
+      'skins',
+      'spices',
+      'timber',
+      'wool'
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
@@ -291,6 +396,16 @@ export default [
     rich_people: 268,
     wealthy_people: 644,
     poor_people: 2040,
+    produces: [
+      'fish',
+      'grain',
+      'hemp',
+      'honey',
+      'pig iron',
+      'skins',
+      'timber',
+      'wool'
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
@@ -317,6 +432,17 @@ export default [
     rich_people: 292,
     wealthy_people: 436,
     poor_people: 1356,
+    produces: [
+      'beer',
+      'bricks',
+      'honey',
+      'leather',
+      'meat',
+      'pig iron',
+      'pitch',
+      'skins',
+      'timber',
+    ],
     businesses: {
       'apiary': 0,
       'brewery': 0,
