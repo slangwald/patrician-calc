@@ -1,4 +1,4 @@
-import nameCompare from './functions'
+import {nameCompare} from './functions'
 
 let goodsConfigPer1000 = [
 {
