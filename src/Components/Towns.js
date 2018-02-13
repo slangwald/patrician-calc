@@ -10,7 +10,7 @@ class Towns extends Component {
       towns = this.props.towns.map(town => <Town key={town.name} town={town} />)
     }
 
-    console.log(this.props)
+    //console.log(this.props)
     return (
       <Table size='sm' striped>
         <thead>

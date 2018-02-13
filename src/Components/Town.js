@@ -6,7 +6,7 @@ class Town extends Component {
     return this.props.town.rich_people + this.props.town.wealthy_people + this.props.town.poor_people
   }
   render(){
-    console.log(this.props)
+    //console.log(this.props)
     return (
       <tr>
         <td>{this.props.town.name}</td>

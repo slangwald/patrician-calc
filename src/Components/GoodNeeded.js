@@ -12,7 +12,7 @@ class GoodNeeded extends Component {
 
   calculateBusinessRequirements(town) {
     if (town.businesses) {
-      console.log(BusinessesConfig.map(t => console.log(t.name)));
+      // console.log(BusinessesConfig.map(t => console.log(t.name)));
       BusinessesConfig.map(businessConfig => {
         if (town.businesses[businessConfig.name]){
           Object.keys(businessConfig.requires).map(key => {
@@ -67,7 +67,7 @@ class GoodNeeded extends Component {
       }
       return (
         <td key={this.props.town.name + '-' + good.name}>
-          <span className={isProducedHere}>{neededGood + requiredByBusinesses}</span>
+          <span className={isProducedHere}>{(neededGood + requiredByBusinesses) * this.props.town.reserve_multiplier}</span>
         </td>
       )
     })
