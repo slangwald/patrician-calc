@@ -1,4 +1,4 @@
-import nameCompare from './functions'
+import {nameCompare} from './functions'
 
 let BusinessesConfig = [
   {
@@ -96,7 +96,7 @@ let BusinessesConfig = [
   {
     name: 'salt works',
     produces: {
-      'beer': 35.
+      'salt': 35.
     },
     requires: {
       'timber': 3.5

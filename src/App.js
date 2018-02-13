@@ -3,6 +3,7 @@ import Towns from './Components/Towns'
 import GoodsNeeded from './Components/GoodsNeeded'
 import goodsConfig from './GoodsConfig'
 import townConfig from './TownConfig'
+import Production from './Components/Production'
 
 class App extends Component {
 
@@ -38,6 +39,8 @@ class App extends Component {
         <Towns towns={this.state.towns} />
         <GoodsNeeded towns={this.state.towns}
                      goods_config={this.state.goods_config} />
+        <Production towns={this.state.towns} />
+
       </div>
     );
   }
