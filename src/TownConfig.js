@@ -3,9 +3,9 @@ export default [
   {
     name: 'Luebeck',
     reserve_multiplier: 1,
-    rich_people: 921,
-    wealthy_people: 1790,
-    poor_people: 4173,
+    rich_people: 1800,
+    wealthy_people: 2900,
+    poor_people: 6500,
     produces: [
       'bricks',
       'fish',
@@ -18,14 +18,14 @@ export default [
     businesses: {
       'apiary': 0,
       'brewery': 0,
-      'brick works': 17,
+      'brick works': 31,
       'cattle farm': 0,
       'fisher': 9,
       'grain farm': 0,
       'hemp farm': 0,
       'hunter': 0,
       'iron smelter': 0,
-      'pitch maker': 0,
+      'pitch maker': 8,
       'pottery': 0,
       'salt works': 0,
       'sawmill': 0,
@@ -33,15 +33,15 @@ export default [
       'vineyard': 0,
       'weaving mill': 0,
       'whaler': 0,
-      'work shop': 22
+      'work shop': 36
     }
   },
   {
     name: 'Oslo',
     reserve_multiplier: 2,
-    rich_people: 281,
-    wealthy_people: 617,
-    poor_people: 2490,
+    rich_people: 1000,
+    wealthy_people: 2200,
+    poor_people: 3900,
     produces: [
 
       'bricks',
@@ -69,20 +69,20 @@ export default [
       'pitch maker': 0,
       'pottery': 0,
       'salt works': 0,
-      'sawmill': 5,
+      'sawmill': 16,
       'sheep farm': 0,
       'vineyard': 0,
       'weaving mill': 0,
-      'whaler': 3,
+      'whaler': 7,
       'work shop': 0
     }
   },
   {
     name: 'Stettin',
     reserve_multiplier: 1,
-    rich_people: 489,
-    wealthy_people: 1521,
-    poor_people: 5351,
+    rich_people: 1400,
+    wealthy_people: 2900,
+    poor_people: 11100,
     produces: [
       'beer',
       'fish',
@@ -93,17 +93,17 @@ export default [
     ],
     businesses: {
       'apiary': 0,
-      'brewery': 19,
+      'brewery': 31,
       'brick works': 0,
       'cattle farm': 0,
-      'fisher': 3,
+      'fisher': 7,
       'grain farm': 20,
-      'hemp farm': 4,
+      'hemp farm': 18,
       'hunter': 0,
       'iron smelter': 0,
       'pitch maker': 0,
       'pottery': 0,
-      'salt works': 14,
+      'salt works': 26,
       'sawmill': 0,
       'sheep farm': 0,
       'vineyard': 0,
@@ -115,9 +115,9 @@ export default [
   {
     name: 'Visby',
     reserve_multiplier: 2,
-    rich_people: 465,
-    wealthy_people: 883,
-    poor_people: 2520,
+    rich_people: 800,
+    wealthy_people: 1400,
+    poor_people: 3800,
     produces: [
       'bricks',
       'cloth',
@@ -141,9 +141,9 @@ export default [
       'pottery': 0,
       'salt works': 0,
       'sawmill': 0,
-      'sheep farm': 5,
+      'sheep farm': 16,
       'vineyard': 0,
-      'weaving mill': 8,
+      'weaving mill': 11,
       'whaler': 0,
       'work shop': 0
     }
@@ -151,9 +151,9 @@ export default [
   {
     name: 'Rostock',
     reserve_multiplier: 1,
-    rich_people: 433,
-    wealthy_people: 749,
-    poor_people: 2889,
+    rich_people: 900,
+    wealthy_people: 1500,
+    poor_people: 6000,
     produces: [
       'bricks',
       'grain',
@@ -165,7 +165,7 @@ export default [
       'salt',
     ],
     businesses: {
-      'apiary': 6,
+      'apiary': 16,
       'brewery': 0,
       'brick works': 0,
       'cattle farm': 0,
@@ -175,7 +175,7 @@ export default [
       'hunter': 0,
       'iron smelter': 0,
       'pitch maker': 0,
-      'pottery': 4,
+      'pottery': 15,
       'salt works': 0,
       'sawmill': 0,
       'sheep farm': 0,
@@ -188,9 +188,9 @@ export default [
   {
     name: 'Aalborg',
     reserve_multiplier: 1,
-    rich_people: 494,
-    wealthy_people: 1025,
-    poor_people: 2461,
+    rich_people: 1200,
+    wealthy_people: 1900,
+    poor_people: 6700,
     produces: [
       'bricks',
       'fish',
@@ -205,29 +205,29 @@ export default [
       'apiary': 0,
       'brewery': 0,
       'brick works': 0,
-      'cattle farm': 11,
+      'cattle farm': 33,
       'fisher': 0,
       'grain farm': 0,
       'hemp farm': 0,
       'hunter': 0,
-      'iron smelter': 7,
+      'iron smelter': 16,
       'pitch maker': 0,
       'pottery': 0,
       'salt works': 0,
-      'sawmill': 12,
+      'sawmill': 17,
       'sheep farm': 0,
       'vineyard': 0,
       'weaving mill': 0,
-      'whaler': 0,
+      'whaler': 5,
       'work shop': 0
     }
   },
   {
     name: 'Danzig',
     reserve_multiplier: 1,
-    rich_people: 331,
-    wealthy_people: 696,
-    poor_people: 2947,
+    rich_people: 900,
+    wealthy_people: 1600,
+    poor_people: 4400,
     produces: [
       'beer',
       'grain',
@@ -241,13 +241,13 @@ export default [
       'apiary': 0,
       'brewery': 0,
       'brick works': 0,
-      'cattle farm': 8,
+      'cattle farm': 24,
       'fisher': 0,
       'grain farm': 10,
-      'hemp farm': 8,
+      'hemp farm': 6,
       'hunter': 0,
       'iron smelter': 0,
-      'pitch maker': 4,
+      'pitch maker': 2,
       'pottery': 0,
       'salt works': 0,
       'sawmill': 0,
@@ -261,9 +261,9 @@ export default [
   {
     name: 'Malmoe',
     reserve_multiplier: 1,
-    rich_people: 411,
-    wealthy_people: 918,
-    poor_people: 2084,
+    rich_people: 700,
+    wealthy_people: 1500,
+    poor_people: 2800,
     produces: [
       'bricks',
       'cloth',
@@ -288,9 +288,9 @@ export default [
       'pottery': 0,
       'salt works': 0,
       'sawmill': 0,
-      'sheep farm': 5,
+      'sheep farm': 9,
       'vineyard': 0,
-      'weaving mill': 4,
+      'weaving mill': 10,
       'whaler': 0,
       'work shop': 0
     }
@@ -298,9 +298,9 @@ export default [
   {
     name: 'Reval',
     reserve_multiplier: 1.5,
-    rich_people: 293,
-    wealthy_people: 504,
-    poor_people: 2219,
+    rich_people: 400,
+    wealthy_people: 800,
+    poor_people: 2500,
     produces: [
       'grain',
       'iron goods',
@@ -317,7 +317,7 @@ export default [
       'fisher': 0,
       'grain farm': 2,
       'hemp farm': 0,
-      'hunter': 12,
+      'hunter': 26,
       'iron smelter': 0,
       'pitch maker': 0,
       'pottery': 0,
@@ -333,9 +333,9 @@ export default [
   {
     name: 'Riga',
     reserve_multiplier: 1.5,
-    rich_people: 200,
-    wealthy_people: 436,
-    poor_people: 1560,
+    rich_people: 400,
+    wealthy_people: 700,
+    poor_people: 2200,
     produces: [
       'fish',
       'honey',
@@ -352,7 +352,7 @@ export default [
       'fisher': 0,
       'grain farm': 0,
       'hemp farm': 0,
-      'hunter': 0,
+      'hunter': 12,
       'iron smelter': 0,
       'pitch maker': 0,
       'pottery': 0,
@@ -368,9 +368,9 @@ export default [
   {
     name: 'Torun',
     reserve_multiplier: 1,
-    rich_people: 327,
-    wealthy_people: 659,
-    poor_people: 1518,
+    rich_people: 400,
+    wealthy_people: 900,
+    poor_people: 1500,
     produces: [
       'honey',
       'leather',
@@ -406,9 +406,9 @@ export default [
   {
     name: 'Ladoga',
     reserve_multiplier: 2.5,
-    rich_people: 282,
-    wealthy_people: 760,
-    poor_people: 2007,
+    rich_people: 500,
+    wealthy_people: 1100,
+    poor_people: 3000,
     produces: [
       'fish',
       'grain',
@@ -481,9 +481,9 @@ export default [
   {
     name: 'Stockholm',
     reserve_multiplier: 2,
-    rich_people: 277,
-    wealthy_people: 573,
-    poor_people: 1806,
+    rich_people: 600,
+    wealthy_people: 1200,
+    poor_people: 2200,
     produces: [
       'fish',
       'iron goods',
@@ -513,6 +513,38 @@ export default [
       'weaving mill': 0,
       'whaler': 0,
       'work shop': 5
+    }
+  },
+  {
+    name: 'Newcasle',
+    reserve_multiplier: 3,
+    rich_people: 200,
+    wealthy_people: 300,
+    poor_people: 1400,
+    produces: [
+      'fish',
+      'grain',
+      'wine'
+    ],
+    businesses: {
+      'apiary': 0,
+      'brewery': 0,
+      'brick works': 0,
+      'cattle farm': 0,
+      'fisher': 3,
+      'grain farm': 9,
+      'hemp farm': 0,
+      'hunter': 0,
+      'iron smelter': 0,
+      'pitch maker': 0,
+      'pottery': 0,
+      'salt works': 0,
+      'sawmill': 0,
+      'sheep farm': 0,
+      'vineyard': 9,
+      'weaving mill': 0,
+      'whaler': 0,
+      'work shop': 0
     }
   },
 

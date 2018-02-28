@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Towns from './Components/Towns'
 import GoodsNeeded from './Components/GoodsNeeded'
 import goodsConfig from './GoodsConfig'
 import townConfig from './TownConfig'
 import Production from './Components/Production'
+import TownRoute from './Components/TownRoute'
 
-class App extends Component {
+class IndexApp extends Component {
 
   constructor() {
     super()
@@ -46,4 +48,19 @@ class App extends Component {
   }
 }
 
-export default App;
+const RoutedApp = () => (
+  <Router>
+    <div>
+          <Link to="/">Home</Link>
+          
+      <hr />
+
+      <Route exact path="/" component={IndexApp} />
+      <Route path="/town/:town" component={TownRoute} />
+    </div>
+  </Router>
+);
+
+
+
+export default RoutedApp;
