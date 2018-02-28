@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import Town from './Town'
-import { Table } from 'reactstrap'
+import Town from './Town';
+import { Table } from 'reactstrap';
 
 class Towns extends Component {
-
-  render(){
+  render() {
     let towns;
-    if (this.props.towns){
-      towns = this.props.towns.map(town => <Town key={town.name} town={town} />)
+    if (this.props.towns) {
+      towns = this.props.towns.map(town => (
+        <Town key={town.name} town={town} />
+      ));
     }
 
     //console.log(this.props)
     return (
-      <Table size='sm' striped>
+      <Table size="sm" striped>
         <thead>
           <tr>
             <th>Town</th>
@@ -22,11 +23,9 @@ class Towns extends Component {
             <th>Total</th>
           </tr>
         </thead>
-        <tbody>
-          {towns}
-        </tbody>
+        <tbody>{towns}</tbody>
       </Table>
-    )
+    );
   }
 }
 
